@@ -9,7 +9,7 @@
 * @param  {Object}                options
 * @return {RegExp}
 */
-function pathtoRegexp (path, keys, options) {
+function pathToRegexp (path, keys, options) {
 	keys = keys || [];
 	options = options || {};
 
