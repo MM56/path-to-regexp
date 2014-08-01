@@ -41,7 +41,7 @@ function pathToRegexp (path, keys, options) {
 		// the same keys and options instance into every generation to get
 		// consistent matching groups before we join the sources together.
 		path = path.map(function (value) {
-			return pathtoRegexp(value, keys, options).source;
+			return pathToRegexp(value, keys, options).source;
 		});
 
 		// Generate a new regexp instance by joining all the parts together.
